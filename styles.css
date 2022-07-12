@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 * {
@@ -146,6 +153,22 @@ a:hover {
     margin-bottom: 120px;
 }
 
+.store-links .button {
+    width: 220px;
+    height: 65px;
+    background-color: black;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .store-links__image {
     height: 60px;
 }
@@ -163,9 +186,10 @@ a:hover {
         height: 30px;
     }
 }
-.store-links__image:first-child {
+
+.store-links .button:first-child {
     margin-right: 10px;
 }
-.store-links__image:last-child {
+.store-links .button:last-child {
     margin-left: 10px;
 }
