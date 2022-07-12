@@ -175,17 +175,17 @@ a:hover {
 
 @media screen and (max-width: 468px) {
     .store-links .button {
-        width: 180px;
-        height: 55px;
+        width: 160px;
+        height: 50px;
     }
     .store-links__image {
-        height: 50px;
+        height: 45px;
     }
     .store-links {
         margin-bottom: 80px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .store-links {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
