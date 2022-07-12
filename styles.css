@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+:root,
+html,
+body {
+    font-size: 10px;
+    color: #656262;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    :root,
+    html,
+    body {
+        font-size: 8px;
+    }
+}
+
+a {
+    color: #656262;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: calc(100% - 100px);
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+}
+@media screen and (max-height: 750px) {
+    .main {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .main {
+        width: calc(100% - 60px);
+        padding: 30px;
+    }
+}
+
+.logo {
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .logo {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo {
+        height: 130px;
+    }
+}
+
+.display-s {
+    font-size: 5.5rem;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.text {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.store-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+
+.store-links__image {
+    height: 60px;
+}
+
+@media screen and (max-width: 468px) {
+    .store-links__image {
+        height: 50px;
+    }
+    .store-links {
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .store-links__image {
+        height: 30px;
+    }
+}
+.store-links__image:first-child {
+    margin-right: 10px;
+}
+.store-links__image:last-child {
+    margin-left: 10px;
+}
